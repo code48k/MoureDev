@@ -4,7 +4,7 @@
 
 // 3.- Muestra el primer y último carácter de un string.
 
-// 4.- Convierte a mayúscula y minúsculas unstring.
+// 4.- Convierte a mayúscula y minúsculas un string.
 
 // 5.- Crea una cadena de texto en varias líneas.
 

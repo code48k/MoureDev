@@ -1,4 +1,4 @@
-// 4.- Imprime 5 vomparaciones falsas com diferentes operadores de compraración.
+// 14.- Imprime 5 vomparaciones falsas com diferentes operadores de compraración.
 
 const a = 5;
 const b = 15;

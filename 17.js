@@ -1,4 +1,4 @@
-// 7.- Combina ambos operadores lógicos.
+// 17.- Combina ambos operadores lógicos.
 
 let a = 10;
 let b = 20;

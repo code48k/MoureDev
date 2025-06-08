@@ -1,4 +1,4 @@
-// 3.- Imprime 5 comparaciones con verdades con diferentes operaciones de comparación.
+// 13.- Imprime 5 comparaciones con verdades con diferentes operaciones de comparación.
 
 const a = 5;
 const b = 15;
