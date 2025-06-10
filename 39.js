@@ -1,6 +1,6 @@
 // 39.- Usa un switch para mostrar en que estación del año nos encontramos dependiendo del valor de una variable "mes".
 
-let mes = "Diciembre";
+let mes = "Marzo";
 let estacion;
 
 switch(mes){
