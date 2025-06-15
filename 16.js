@@ -1,4 +1,4 @@
-// 16.- Utiliza el operador lógico or.
+// 16.- Utiliza el operador lógico or. 
 
 let a = 5;
 let b = 15;
