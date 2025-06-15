@@ -1,4 +1,4 @@
-// 3.- Declara variables con valores asociados a todos los datos de tipo primitivo.
+// 3.- Declara variables con valores asociados a todos los datos de tipo primitivo. 
 
 // String (Tipo Cadena de Texto)
 const vida = "Me va bien en la vida, estoy agradecido por ello";
