@@ -1,9 +1,51 @@
 // 57.- Escribe un bucle que imprima la tabla de multiplicar del 5. Usa diferentes bucles tanto while, do while y for!.
 
-for (let buclfr = 0; buclfr<10; buclfr++){
+let numBuclfr = 5;
 
-    tablaMultiplicar = buclfr;
+let tablaMultiplicarBuclfr;
+
+for (let buclfr = 1; buclfr<=10; buclfr++){
+
+    tablaMultiplicarBuclfr = numBuclfr * buclfr;
+
+console.log(tablaMultiplicarBuclfr);
 
 }
 
-console.log(tablaMultiplicar);
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+let numBucWhle = 5;
+
+let tablaMultiplicarBucWhle;
+
+let bucWhle = 1;
+
+while (bucWhle<=10){
+
+    tablaMultiplicarBucWhle = numBucWhle * bucWhle;
+
+    bucWhle++;
+    
+    console.log(tablaMultiplicarBucWhle);
+
+}
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+let numbucDoWhle = 5;
+
+let tablaMultiplicarbucDoWhle;
+
+let bucDoWhle = 1;
+
+do{
+
+    tablaMultiplicarbucDoWhle = numbucDoWhle * bucDoWhle;
+
+    bucDoWhle++;
+
+    console.log(tablaMultiplicarbucDoWhle);
+
+}
+
+while (bucDoWhle<=10);
