@@ -1,4 +1,4 @@
-// 6.- A continuación, modifica los valores de las variables por otros del mismo tipo.
+// 6.- A continuación, modifica los valores de las variables por otros del mismo tipo. 
 
 let dato = 5;
 dato = 10;
