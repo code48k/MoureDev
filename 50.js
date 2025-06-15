@@ -2,5 +2,5 @@
 
 let animales = ["león", "tigre", "oso", "cocodrilo", "perro"];
 let mySet = new Set(animales);
-mySet.keys(león);
-console.log(mySet);
+let myMap = new Map(animales);
+console.log(myMap);

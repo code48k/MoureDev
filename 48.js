@@ -2,6 +2,6 @@
 
 let num = new Map([
     ["numero", "5"],
-    ["clave", "123456"]
+    ["clave", "KT287387A"]
 ]);
-console.log(num.get("numero"));
+console.log(num.get("clave"));
