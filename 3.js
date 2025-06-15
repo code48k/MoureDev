@@ -1,11 +1,13 @@
 // 3.- Declara variables con valores asociados a todos los datos de tipo primitivo.
 
 // String (Tipo Cadena de Texto)
+
 const vida = "Me va bien en la vida, estoy agradecido por ello";
 const trabajo = "Encontre trabajo";
 const habilidad = `Soy muy costante`;
 
 // Number (Tipo Número/Decimal)
+
 const numero = 24;
 const decimal = 1.72;
 
