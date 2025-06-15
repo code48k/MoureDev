@@ -2,19 +2,19 @@
 
 // String (Tipo Cadena de Texto)
 
-const vida = "Me va bien en la vida, estoy agradecido por ello";
-const trabajo = "Encontre trabajo";
-const habilidad = `Soy muy costante`;
+let vida = "Me va bien en la vida, estoy agradecido por ello";
+let trabajo = "Encontre trabajo";
+let habilidad = `Soy muy costante`;
 
 // Number (Tipo Número/Decimal)
 
-const numero = 24;
-const decimal = 1.72;
+let numero = 24;
+let decimal = 1.72;
 
 // Booleano
 
-const verdadero = true;
-const falso = false;
+let verdadero = true;
+let falso = false;
 
 // El valor null es un literal de Javascript que representa intencionalmente un valor nulo o "vacío".
 // Null
@@ -32,5 +32,5 @@ let symbol = Symbol("mySimbol");
 
 // BigInt (Número Grandes)
 
-const numeroGrandes = BigInt(39889389338389339889339789393893899389383983383838993);
-const numeroGrande = 39889389338389339889339789393893899389383983383838993n;
+let numeroGrandes = BigInt(39889389338389339889339789393893899389383983383838993);
+let numeroGrande = 39889389338389339889339789393893899389383983383838993n;
