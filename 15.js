@@ -1,4 +1,4 @@
-// 15.- Utiliza el operador lógico and.
+// 15.- Utiliza el operador lógico and. 
 
 let a = 22;
 let b = 18;
