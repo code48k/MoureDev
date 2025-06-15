@@ -2,5 +2,5 @@
 
 /* 
 var cosa = 5;
-let asunto = "VAYA MIERDA DE VIDA";
+let asunto = "Hola, Soy Javascript!!!";
 */ 
