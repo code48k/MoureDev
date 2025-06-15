@@ -1,4 +1,4 @@
-// 5.- Imprime por consola el tipo de todas las variables.
+// 5.- Imprime por consola el tipo de todas las variables. 
 
 // String (Tipo Cadena de Texto)
 const vida = "Me va bien en la vida, estoy agradecido por ello";
