@@ -30,7 +30,7 @@ let undefined;
 
 let symbol = Symbol("mySimbol");
 
-//BigInt (Número Grandes)
+// BigInt (Número Grandes)
 
 const numeroGrandes = BigInt(39889389338389339889339789393893899389383983383838993);
 const numeroGrande = 39889389338389339889339789393893899389383983383838993n;
