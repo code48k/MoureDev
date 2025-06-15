@@ -7,4 +7,4 @@ let variableMutable = "Variable Mutable";
 console.log(variableMutable);
 
 const variableNoMutable = "Variable no Mutable";
-console.log(variableNoMutable);
+console.log(variableNoMutable); 
