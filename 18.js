@@ -1,4 +1,4 @@
-//18.- Añade alguna negación.
+//18.- Añade alguna negación. 
 
 let a = 5;
 let b = 8;
