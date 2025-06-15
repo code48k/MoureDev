@@ -8,4 +8,3 @@ datoClimatologico ? console.log("Esta lloviendo") : console.log("No esta llovien
 let datoNumerico = true; /* SI ES VERDADERO SE CUMPLE LA PRIMERA CONDICIÓN "Has metido un número". */
 
 datoNumerico ? console.log("Has metido un número") : console.log("No has metido un número");
-
