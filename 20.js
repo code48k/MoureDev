@@ -9,8 +9,3 @@ console.log(20 * a > 99 && 10 / 2 > 4);
 console.log(100 / 2 < 10 || 25 * 2 < 1000);
 console.log(100 - 50 > 49 || 20 * 2 < 10);
 console.log(20 - a > 20 || 50 - b > 10);
-
-
-
-
-
