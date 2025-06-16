@@ -38,6 +38,7 @@ cadenarevertida = "";
 do {
   
   cadenarevertida += cadena[bucDoWhle];
+  
   bucDoWhle--;
 }
 
