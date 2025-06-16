@@ -44,4 +44,4 @@ switch(mes){
         estacion = "El mes introducido es incorrecto";
 }
 
-console.log(estacion);
+console.log(estacion); 
