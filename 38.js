@@ -1,6 +1,6 @@
 // 38.- Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma.
 
-let idioma = "Portugués";
+let idioma = "Portugués"; 
 let mensaje;
 
 switch(idioma){
