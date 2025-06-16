@@ -1,4 +1,4 @@
-// 36.- Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes".
+// 36.- Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes". 
 
 let mes = "Dicimbre";
 let estacion;
