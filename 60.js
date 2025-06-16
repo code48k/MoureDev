@@ -1,1 +1,7 @@
-// 60.- Haz un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10. Usa diferentes bucles tanto while, do while y for!.
+// 60.- Haz un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 40. Usa diferentes bucles tanto while, do while y for!.
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
