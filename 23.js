@@ -2,4 +2,4 @@
 
 let cadena = "Hola, Javascript!";
 console.log(cadena[0]);
-console.log(cadena[16]);
+console.log(cadena[16]); 
