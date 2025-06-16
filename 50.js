@@ -1,6 +1,12 @@
 // 50.- Crea un array, transfórmalo a un set y almacénalo en un map.
 
-let animales = ["león", "tigre", "oso", "cocodrilo", "perro"];
-let mySet = new Set(animales);
-let myMap = new Map(animales);
-console.log(myMap);
+const miArray = [1, 2, 2, 3, 4, 4, 5];
+
+const miSet = new Set(miArray);
+
+const miMap = new Map();
+miMap.set('miConjunto', miSet);
+
+console.log("Array original:", miArray);
+console.log("Set creado:", miSet);
+console.log("Map con el Set:", miMap);
