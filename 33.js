@@ -1,4 +1,4 @@
-// 33.- Verifica si un número es positivo, negativo o cero e imprime un mensaje.
+// 33.- Verifica si un número es positivo, negativo o cero e imprime un mensaje. 
 
 let a = Math.sign("-10");
 
