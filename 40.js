@@ -41,7 +41,7 @@ switch(mes){
         estacion = `Estamos en el mes de ${mes} y es Otoño hasta el 21 de Diciembre, porque a partir de esa fecha sería Invierno tiene 31 díasnode 40.`;
         break;  
     default:
-        estacion = "El mes introducido es incorrecto";
+        estacion = "El mes introducido es incorrecto"; 
 }
 
 console.log(estacion);
