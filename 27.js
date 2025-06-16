@@ -2,4 +2,4 @@
 
 let cadena = "Hoy hace un dia maravilloso, para tomar el sol";
 console.log(cadena.length);
-console.log(cadena.replace(/\s+/g, " ");
+console.log(cadena.replace(/\s+/g, "-"));
