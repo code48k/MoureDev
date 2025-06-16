@@ -1,4 +1,4 @@
-// 34.- Verifica si una persona puede votar o no (mayor igual a 18) e indica cuántos años le faltan.
+// 34.- Verifica si una persona puede votar o no (mayor igual a 18) e indica cuántos años le faltan. 
 
 let edad = 65;
 let voto;
