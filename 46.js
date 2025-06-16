@@ -4,4 +4,4 @@ let libros = new Set();
 libros = new Set(["La Garganta Profunda", "Harry Potter", "Adiccion a la Vida", "La Casa Negra", "Pepito de los Palotes"]);
 libros.add("La Maria");
 libros.delete("La Vida es Bella");
-console.log(libros);
+console.log(libros); 
