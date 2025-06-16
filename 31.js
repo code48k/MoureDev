@@ -1,4 +1,4 @@
-// 31.- Imprime por consola tu nombre si una variable toma su valor.
+// 31.- Imprime por consola tu nombre si una variable toma su valor. 
 
 let nombre = "";
 nombre = "JuanMa";
