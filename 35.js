@@ -1,4 +1,4 @@
-// 35.- Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable dependiendo de la edad.
+// 35.- Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable dependiendo de la edad. 
 
 let edad = 18;
 
