@@ -3,4 +3,4 @@
 let array = [];
 array = ["león", "tigre", "oso", "cocodrilo", "perro"];
 array.splice(1, 1);
-console.log(array);
+console.log(array); 
