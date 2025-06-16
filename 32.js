@@ -13,7 +13,7 @@ else if (usuario === "jmlucasdelamo@gmail.com" && contrasena != "123456"){
 
 else if (usuario !== "jmlucasdelamo@gmail.com" && contrasena == 123456){
     console.log("El usuario no es correcto");
-}
+} 
 
 else{
     console.log("El usuario y contraseña no son correcto, intentalo de nuevo");
