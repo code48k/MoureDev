@@ -1,4 +1,4 @@
-// 48.- Crea un mapa que asocie el número 5 existe en el map e imprime su valor.
+// 48.- Crea un mapa que asocie el número 5 existe en el map e imprime su valor. 
 
 let num = new Map([
     ["numero", "5"],
