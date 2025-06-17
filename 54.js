@@ -1,4 +1,4 @@
-// 54.- Dado un array de nombres, usa un bucle para imprimir cada nombre en la consola. Usa diferentes bucles tanto while, do while y for!.
+// 54.- Dado un array de nombres, usa un bucle para imprimir cada nombre en la consola. Usa diferentes bucles tanto while, do while y for!. 
 
 let myArray = [];
 
