@@ -1,4 +1,4 @@
-// 56.- Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto. Usa diferentes bucles tanto while, do while y for!.
+// 56.- Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto. Usa diferentes bucles tanto while, do while y for!. 
 
 let myArray = [1, 2, 3, 4, 5]; 
 
