@@ -1,4 +1,4 @@
-// 55.- Escribe un bucle que cuente el número de vocales en una cadena de texto. Usa diferentes bucles tanto while, do while y for!.
+// 55.- Escribe un bucle que cuente el número de vocales en una cadena de texto. Usa diferentes bucles tanto while, do while y for!. 
 
 let frase = "Hola, soy Javacript!!!, cada vez aprendo más, Jajaja!!cd.";
 
