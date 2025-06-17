@@ -1,4 +1,4 @@
-// 52.- Crea un bucle que sume todos los números del 1 al 100 y muestre el resultado. Usa diferentes bucles tanto while, do while y for!.
+// 52.- Crea un bucle que sume todos los números del 1 al 100 y muestre el resultado. Usa diferentes bucles tanto while, do while y for!. 
 
 let resultado = 0;
 
