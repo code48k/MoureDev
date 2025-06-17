@@ -1,4 +1,4 @@
-// 53.- Crea un bucle que imprima todos los números pares entre 1 y 50. Usa diferentes bucles tanto while, do while y for!.
+// 53.- Crea un bucle que imprima todos los números pares entre 1 y 50. Usa diferentes bucles tanto while, do while y for!. 
 
 for (let buclfr = 1; buclfr<50; buclfr++){
     buclfr += 1;
