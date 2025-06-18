@@ -6,18 +6,20 @@
 
 
 let numero = "0";
-
+ 
 let inicio = "1";
-
-for (let i = 0; i<inicio.length; i++){
-    resultado = numero + inicio;
-
+let resultado;
+for (let i = 0; i<30; i++){
+     resultado = numero + inicio;
+numero = inicio;
+inicio = resultado;
     //  numero = fibonacci[i-1] + fibonacci[fibonacci.length-1];
 
 
 }
 
-console.log(resultado);
+console.log(numero+inicio);
+
 
 
 // let fibonacci = [1,1];
