@@ -1,7 +1,7 @@
 // 59.- Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci. Usa diferentes bucles tanto while, do while y for!. 
 
 let valor1 = 0;
-let valor2 = 1;
+let valor2 = 1; 
 let resultado;
 console.log(valor1); 
 console.log(valor2); 
