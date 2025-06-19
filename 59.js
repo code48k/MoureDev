@@ -1,37 +1,60 @@
 // 59.- Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci. Usa diferentes bucles tanto while, do while y for!. 
 
-
-// La sucesión de Fibonacci es una secuencia infinita de números donde cada número se obtiene sumando los dos números anteriores. La secuencia comienza con 0 y 1, y se ve así: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, y así sucesivamente. Esta secuencia fue descrita por primera vez por Leonardo de Pisa, también conocido como Fibonacci, en su libro "Liber Abaci" en 1202. 
-// La fórmula para generar la secuencia de Fibonacci es: F(n) = F(n-1) + F(n-2), donde F(0) = 0 y F(1) = 1. 
-
-
-let numero = "0";
- 
-let inicio = "1";
+let valor1 = 0;
+let valor2 = 1;
 let resultado;
-for (let i = 0; i<30; i++){
-     resultado = numero + inicio;
-numero = inicio;
-inicio = resultado;
-    //  numero = fibonacci[i-1] + fibonacci[fibonacci.length-1];
+console.log(valor1); 
+console.log(valor2); 
 
+for (let buclfr = 0; buclfr<8; buclfr++){
+
+    resultado = valor1 + valor2; // 📍 Se calcula el siguiente número de Fibonacci: la suma de los dos anteriores.
+    valor1 = valor2; // 📍 Se actualiza valor1 para que ahora tenga el valor de valor2. Se está desplazando un paso hacia adelante.
+    valor2 = resultado; // 📍 valor2 se actualiza al nuevo resultado. Ahora está listo para la próxima suma.
+
+    console.log(resultado);
 
 }
 
-console.log(numero+inicio);
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+valor1 = 0;
+valor2 = 1;
+resultado;
+console.log(valor1); 
+console.log(valor2);
 
+let bucWhle = 0;
+while (bucWhle<8){
 
-// let fibonacci = [1,1];
-// while (fibonacci.length < 20) {
-//   fibonacci.push( fibonacci[fibonacci.length -1] + fibonacci[fibonacci.length -2]);
-// }
+    resultado = valor1 + valor2;
+    valor1 = valor2;
+    valor2 = resultado;
+    bucWhle++;
 
-// console.log(fibonacci.toString());
+    console.log(resultado);
 
+}
 
-// buclfr
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// bucWhle
+valor1 = 0;
+valor2 = 1;
+resultado;
+console.log(valor1); 
+console.log(valor2);
 
-// bucDoWhle
+let bucDoWhle = 0;
+
+do {
+
+    resultado = valor1 + valor2;
+    valor1 = valor2;
+    valor2 = resultado;
+    bucDoWhle++;
+
+    console.log(resultado);
+
+}
+
+while (bucDoWhle<8);
