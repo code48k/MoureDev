@@ -6,7 +6,7 @@ let resultado;
 console.log(valor1); 
 console.log(valor2); 
 
-for (let buclfr = 0; buclfr<=10; buclfr++){
+for (let buclfr = 0; buclfr<8; buclfr++){
 
     resultado = valor1 + valor2; // 📍 Se calcula el siguiente número de Fibonacci: la suma de los dos anteriores.
     valor1 = valor2; // 📍 Se actualiza valor1 para que ahora tenga el valor de valor2. Se está desplazando un paso hacia adelante.
@@ -25,7 +25,7 @@ console.log(valor1);
 console.log(valor2);
 
 let bucWhle = 0;
-while (bucWhle<=10){
+while (bucWhle<8){
 
     resultado = valor1 + valor2; // 📍 Se calcula el siguiente número de Fibonacci: la suma de los dos anteriores.
     valor1 = valor2; // 📍 Se actualiza valor1 para que ahora tenga el valor de valor2. Se está desplazando un paso hacia adelante.
@@ -57,4 +57,4 @@ do {
 
 }
 
-while (bucDoWhle<=10);
+while (bucDoWhle<8);
