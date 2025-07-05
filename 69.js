@@ -1,0 +1,1 @@
+// 69.- Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso. Explora diferentes sintaxis de funciones para resolver el ejercicio.

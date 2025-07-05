@@ -1,0 +1,1 @@
+// 68.- Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado. Explora diferentes sintaxis de funciones para resolver el ejercicio.

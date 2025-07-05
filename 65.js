@@ -1,0 +1,1 @@
+// 65.- Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario. Explora diferentes sintaxis de funciones para resolver el ejercicio.

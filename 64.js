@@ -1,0 +1,1 @@
+// 64.- Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas. Explora diferentes sintaxis de funciones para resolver el ejercicio.

@@ -1,0 +1,1 @@
+// 62.- Crea una funcion que reciba un array de números y devuelva el mayor de ellos. Explora diferentes sintaxis de funciones para resolver el ejercicio.
