@@ -1,6 +1,6 @@
 // 55.- Escribe un bucle que cuente el número de vocales en una cadena de texto. Usa diferentes bucles tanto while, do while y for!. 
 
-let frase = "Hola, soy Javacript!!!, cada vez aprendo más, Jajaja!!cd.";
+let frase = "Hola, soy Javacript!!!, cada vez aprendo más, Jajaja!!."; 
 
 let numerovocales1 = 0;
 let numerovocales2 = 0;
