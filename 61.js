@@ -2,64 +2,64 @@
 
 // Función simple
 
-let resultadoFunctionSimple;
+let resultadoSimple;
 
 function functionSimple(){
 
-    resultadoFunctionSimple = 43 + 91;
+    resultadoSimple = 43 + 91;
 
 }
 
 functionSimple();
 
-console.log(resultadoFunctionSimple);
+console.log(resultadoSimple);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Función parametros
 
-let resultadoFunctionParameters;
+let resultadoParameters;
 
 function functionParameters(a, b){
 
-      resultadoFunctionParameters = a + b;
+      resultadoParameters = a + b;
 
 }
 
 functionParameters(35, 21);
 
-console.log(resultadoFunctionParameters);
+console.log(resultadoParameters);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Funcion Anónima
 
-let resultadoFunctionAnonymous;
+let resultadoAnonymous;
 
 const functionAnonymous = function(){
 
-  resultadoFunctionAnonymous = 13 + 31;
+  resultadoAnonymous = 13 + 31;
 
 }
 
 functionAnonymous();
 
-console.log(resultadoFunctionAnonymous);
+console.log(resultadoAnonymous);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Funciones Flecha
 
-let resultadoFunctionArrow;
+let resultadoArrow;
 
 const functionArrow = (values1, values2) =>{
-    resultadoFunctionArrow = values1 + values2;
+    resultadoArrow = values1 + values2;
 
 }
 
 functionArrow(21, 31);
 
-console.log(resultadoFunctionArrow);
+console.log(resultadoArrow);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
