@@ -4,7 +4,7 @@
 
 let cadena = "¡Hola, chicos soy JavasCript!...";
 
-function resultadoVocalSimple(){
+function resultVocalSimple(){
 
     let contador = 0;
 
@@ -21,13 +21,13 @@ console.log(`Números de vocales introducidas: ${contador}`);
 
 }
 
-resultadoVocalSimple();
+resultVocalSimple();
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Función parametros
 
-function resultadoVocalParameters(str){
+function resultVocalParameters(str){
     let contador = 0;
 
     for (let i=0; i<str.length; i++){
@@ -43,7 +43,7 @@ console.log(`Números de vocales introducidas: ${contador}`);
 
 }
 
-resultadoVocalParameters("¡He cambiado a PHP lenguaje de servidor!!!");
+resultVocalParameters("¡He cambiado a PHP lenguaje de servidor!!!");
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ resultadoVocalParameters("¡He cambiado a PHP lenguaje de servidor!!!");
 
 cadena = "¡Ahora soy Java!!!...";
 
-const functionAnonymous = function(){
+const resultAnonymous = function(){
 
     let contador = 0;
 
@@ -70,7 +70,7 @@ const functionAnonymous = function(){
 
 }
 
-functionAnonymous();
+resultAnonymous();
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -78,7 +78,7 @@ functionAnonymous();
 
 cadena = "¡Me convertido en el famoso .NET!!!...";
 
-const functionArrow = () => {
+const resultArrow = () => {
 
     let contador = 0;
 
@@ -97,8 +97,33 @@ const functionArrow = () => {
 
 }
 
-functionArrow();
+resultArrow();
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Retorno de Valores
+
+cadena = "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!...";
+
+function resultReturnValues(){
+    
+    let contador = 0;
+
+    for (let i=0; i<cadena.length; i++){
+
+        let frase = cadena[i].toLowerCase();
+
+        if(frase === "a" || frase === "e" || frase === "i" || frase === "o" || frase === "u"){
+
+            contador++;
+        }
+    }
+
+    return `Número de vocales introducidas: ${contador}`;
+
+}
+
+let resultado = resultReturnValues();
+console.log(resultado);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
