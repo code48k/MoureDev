@@ -54,7 +54,7 @@ let resultadoArrow;
 
 const functionArrow = (values1, values2) =>{
     resultadoArrow = values1 + values2;
-
+    
 }
 
 functionArrow(21, 31);
