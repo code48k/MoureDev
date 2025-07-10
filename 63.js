@@ -119,7 +119,7 @@ function resultReturnValues(){
         }
     }
 
-    return `Número de vocales introducidas: ${contador}`;
+    return `Números de vocales introducidas: ${contador}`;
 
 }
 
