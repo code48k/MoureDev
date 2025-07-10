@@ -1,6 +1,6 @@
 // 64.- Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas. Explora diferentes sintaxis de funciones para resolver el ejercicio.
 
-let cadena = ["¡Hola, soy Javascript"];
+let cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
 function arrayStringSimple(){
 
@@ -29,13 +29,13 @@ function arrayStringParameters(str){
     }
 }
 
-arrayStringParameters(["¡He cambiado a PHP lenguaje de servidor!!!"]);
+arrayStringParameters(["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."]);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Funcion Anónima
 
-cadena = ["¡Ahora soy Java!!!..."];
+cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
 const arrayStringAnonymous = function(){
 
@@ -53,7 +53,7 @@ arrayStringAnonymous();
 
 // Funciones Flecha
 
-cadena = ["¡Me convertido en el famoso .NET!!!..."];
+cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
 const resultArrow = () => {
 
@@ -71,7 +71,7 @@ resultArrow();
 
 // Retorno de Valores
 
-cadena = ["¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
 function resultReturnValues(cadena){
 
