@@ -70,3 +70,21 @@ resultArrow();
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Retorno de Valores
+
+cadena = ["¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+
+function contarVocales(cadena){
+
+    for (let i=0; i<cadena.length; i++) {
+
+        let letra = cadena[i].toUpperCase();
+
+        return letra;
+
+    }
+}
+
+let totalVocales = contarVocales(cadena);
+console.log([totalVocales]);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
