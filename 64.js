@@ -75,16 +75,18 @@ cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!
 
 function resultReturnValues(cadena){
 
+    let resultado = [];
+
     for (let i=0; i<cadena.length; i++) {
 
-        let letra = cadena[i].toUpperCase();
-
-        return letra;
+        resultado.push(cadena[i].toUpperCase());
 
     }
+
+    return resultado;
 }
 
-let totalVocales = resultReturnValues(cadena);
-console.log([totalVocales]);
+let totalMayusculas = resultReturnValues(cadena);
+console.log(totalMayusculas);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
