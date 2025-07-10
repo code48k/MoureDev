@@ -73,7 +73,7 @@ resultArrow();
 
 cadena = ["¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
-function contarVocales(cadena){
+function resultReturnValues(cadena){
 
     for (let i=0; i<cadena.length; i++) {
 
@@ -84,7 +84,7 @@ function contarVocales(cadena){
     }
 }
 
-let totalVocales = contarVocales(cadena);
+let totalVocales = resultReturnValues(cadena);
 console.log([totalVocales]);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
