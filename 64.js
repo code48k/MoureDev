@@ -1,92 +1,135 @@
 // 64.- Crea una función que reciba un array de strings y devuelva un nuevo array con las strings en mayúsculas. Explora diferentes sintaxis de funciones para resolver el ejercicio.
 
-let cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+let cadena = [
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."
+];
 
-function arrayStringSimple(){
+function receiveArraySimple(){
+
+    let newArray = [];
 
     for (let i=0; i<cadena.length; i++){
 
-        let frase = cadena[i].toUpperCase();
-        let resultado = [frase];
-        console.log(resultado);
+        newArray.push(cadena[i].toUpperCase());
+    }
 
-    }   
-
+    return newArray;
 }
 
-arrayStringSimple();
+let resultSimple = receiveArraySimple();
+
+console.log(resultSimple);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Función parametros
 
-function arrayStringParameters(str){
-    
-    for (let i =0; i<str.length; i++){
+function receiveArrayParameters(str){
 
-        let resultado = str[i].toUpperCase();
-        console.log([resultado]);
+    let newArray = [];
+
+    for (let i=0; i<str.length; i++){
+        newArray.push(str[i].toUpperCase());
     }
+
+    return newArray;
 }
 
-arrayStringParameters(["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."]);
+let resultParameters = receiveArrayParameters([
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."]);
+
+console.log(resultParameters);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Funcion Anónima
 
-cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+cadena = [
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."
+];
 
-const arrayStringAnonymous = function(){
+const resultArrayAnonymous = function(){
+
+    let newArray = [];
 
     for (let i=0; i<cadena.length; i++){
 
-        let resultado = cadena[i].toUpperCase();
-        console.log([resultado]);
+        newArray.push(cadena[i].toUpperCase());
+
     }
 
-}
+    return newArray;
 
-arrayStringAnonymous();
+} 
+
+let resultadoAnonymous = resultArrayAnonymous();
+
+console.log(resultadoAnonymous);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Funciones Flecha
 
-cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+cadena = [
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."
+];
 
-const resultArrow = () => {
+const resultArrayArrow = () => {
 
-    for (let i =0; i<cadena.length; i++){
+    let newArray = [];
 
-        let resultado = cadena[i].toUpperCase();
-        console.log([resultado]);
+    for (let i=0; i<cadena.length; i++){
+
+        newArray.push(cadena[i].toUpperCase());
+
     }
 
-}
+    return newArray;
 
-resultArrow();
+} 
+
+let resultArrow = resultArrayArrow();
+
+console.log(resultArrow);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Retorno de Valores
 
-cadena = ["¡Hola, soy Javascript", "¡He cambiado a PHP lenguaje de servidor!!!", "¡Ahora soy Java!!!...", "¡Me convertido en el famoso .NET!!!...", "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+function resultArrayReturnValues(str){
 
-function resultReturnValues(cadena){
+    let newArray = [];
 
-    let resultado = [];
-
-    for (let i=0; i<cadena.length; i++) {
-
-        resultado.push(cadena[i].toUpperCase());
-
+    for (let i=0; i<str.length; i++){
+        newArray.push(str[i].toUpperCase());
     }
 
-    return resultado;
+    return newArray;
 }
 
-let totalMayusculas = resultReturnValues(cadena);
-console.log(totalMayusculas);
+let resultReturnValues = resultArrayReturnValues([
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."]);
+
+console.log(resultReturnValues);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
