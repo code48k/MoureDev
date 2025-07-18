@@ -33,6 +33,7 @@ function receiveArrayParameters(str){
     let newArray = [];
 
     for (let i=0; i<str.length; i++){
+
         newArray.push(str[i].toUpperCase());
     }
 
@@ -117,6 +118,7 @@ function resultArrayReturnValues(str){
     let newArray = [];
 
     for (let i=0; i<str.length; i++){
+        class
         newArray.push(str[i].toUpperCase());
     }
 
