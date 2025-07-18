@@ -57,7 +57,9 @@ function receiveArrayParameters(array1, array2) {
 
 }
 
-receiveArrayParameters(miArray1, miArray2);
+
+let resultParameters = receiveArrayParameters(miArray1, miArray2);
+console.log(resultParameters);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -88,9 +90,9 @@ const resultArrayAnonymous = function(){
 
 }
 
-let resultParameters = resultArrayAnonymous();
+let resultAnonymou = resultArrayAnonymous();
 
-console.log(resultParameters);
+console.log(resultAnonymou);
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -128,3 +130,33 @@ console.log(resultArrow);
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Retorno de Valores
+
+miArray1 = [
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."
+    ];
+
+miArray2 = [
+    "17", true, 121, 36, 99
+    ];
+
+function resultArrayReturnValues(array1, array2){
+
+    let newArray = [];
+
+    for (let i = 0; i < array1.length; i++) {
+
+        newArray.push(array1[i]);
+        newArray.push(array2[i]);
+    }
+
+    return newArray;
+
+}
+
+let resultReturnValues = resultArrayReturnValues(miArray1, miArray2);
+
+console.log(resultReturnValues);
