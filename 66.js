@@ -1,23 +1,23 @@
 // 66.- Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos. Explora diferentes sintaxis de funciones para resolver el ejercicio.
 
-let cadena1 = [
+let array1 = [
     "¡Hola, soy Javascript",
     "¡He cambiado a PHP lenguaje de servidor!!!",
     "¡Ahora soy Java!!!...",
     "¡Me convertido en el famoso .NET!!!...",
     "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
-let cadena2 = [
+let array2 = [
     "17", true, 121, 36, 99];
 
 function receiveArraySimple(){
 
     let newArray = [];
 
-    for (let i=0; i<cadena1.length; i++){
+    for (let i=0; i<array1.length; i++){
 
-        newArray.push(cadena1[i]);
-        newArray.push(cadena2[i]);
+        newArray.push(array1[i]);
+        newArray.push(array2[i]);
 
     }
 
@@ -32,28 +32,55 @@ console.log(resultSimple);
 
 // Función parametros
 
-// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-// Funcion Anónima
-
-cadena1 = [
+miArray1 = [
     "¡Hola, soy Javascript",
     "¡He cambiado a PHP lenguaje de servidor!!!",
     "¡Ahora soy Java!!!...",
     "¡Me convertido en el famoso .NET!!!...",
     "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
-cadena2 = [
+miArray2 = [
+    "17", true, 121, 36, 99];
+
+function receiveArrayParameters(array1, array2) {
+
+    let newArray = [];
+
+    for (let i=0; i<array1.length; i++){
+
+        newArray.push(array1[i]);
+        newArray.push(array2[i]);
+
+    }
+    
+    console.log(newArray);
+
+}
+
+receiveArrayParameters(miArray1, miArray2);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Funcion Anónima
+
+array1 = [
+    "¡Hola, soy Javascript",
+    "¡He cambiado a PHP lenguaje de servidor!!!",
+    "¡Ahora soy Java!!!...",
+    "¡Me convertido en el famoso .NET!!!...",
+    "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
+
+array2 = [
     "17", true, 121, 36, 99];
 
 const resultArrayAnonymous = function(){
 
     newArray = [];
 
-    for (let i=0; i<cadena1.length; i++){
+    for (let i=0; i<array1.length; i++){
 
-        newArray.push(cadena1[i]);
-        newArray.push(cadena2[i]);
+        newArray.push(array1[i]);
+        newArray.push(array2[i]);
 
     }
 
@@ -69,24 +96,24 @@ console.log(resultParameters);
 
 // Funciones Flecha
 
-cadena1 = [
+array1 = [
     "¡Hola, soy Javascript",
     "¡He cambiado a PHP lenguaje de servidor!!!",
     "¡Ahora soy Java!!!...",
     "¡Me convertido en el famoso .NET!!!...",
     "¡Ahora son Base de Datos MYSQL y también PostgreSQL:!!!..."];
 
-cadena2 = [
+array2 = [
     "17", true, 121, 36, 99];
 
 const resultArrayArrow = () => {
 
     let newArray = [];
 
-    for (let i=0; i<cadena1.length; i++){
+    for (let i=0; i<array1.length; i++){
 
-        newArray.push(cadena1[i]);
-        newArray.push(cadena2[i]);
+        newArray.push(array1[i]);
+        newArray.push(array2[i]);
 
     }
 
