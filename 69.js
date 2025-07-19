@@ -71,7 +71,7 @@ const resultArrayArrow = () =>{
     for (let i= cadena.length; i--;){
 
         cadenaInvertida += cadena[i];
-        
+
     }
 
 }
@@ -95,6 +95,7 @@ function resultArrayReturnValues(str){
 
     }
 
+    return cadenaInvertida;
 }
 
 resultArrayReturnValues("¡Hola, soy JavasCript!!!!!");
