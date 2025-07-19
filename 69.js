@@ -103,3 +103,5 @@ function resultArrayReturnValues(str){
 resultArrayReturnValues("¡Hola, soy JavasCript!!!!!");
 
 console.log(cadenaInvertida);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
