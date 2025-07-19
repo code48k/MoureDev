@@ -1,5 +1,7 @@
 // 66.- Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos. Explora diferentes sintaxis de funciones para resolver el ejercicio.
 
+// Función simple
+
 let array1 = [
     "¡Hola, soy Javascript",
     "¡He cambiado a PHP lenguaje de servidor!!!",
