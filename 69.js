@@ -6,7 +6,7 @@ let cadena = "¡Hola, soy JavasCript!!!!!";
 
 let cadenaInvertida = "";
 
-function receiveChainSimple(){
+function receiveSimple(){
 
     for (let i = cadena.length; i--;){
 
@@ -15,7 +15,7 @@ function receiveChainSimple(){
     }
 }
 
-receiveChainSimple();
+receiveSimple();
 
 console.log(cadenaInvertida);
 
@@ -25,7 +25,7 @@ console.log(cadenaInvertida);
 
 cadenaInvertida = "";
 
-function receiveArrayParameters(str){
+function receiveParameters(str){
 
     for (let i=str.length; i--;){
 
@@ -35,7 +35,7 @@ function receiveArrayParameters(str){
 
 }
 
-receiveArrayParameters("¡Hola, soy JavasCript!!!!!");
+receiveParameters("¡Hola, soy JavasCript!!!!!");
 
 console.log(cadenaInvertida);
 
@@ -47,7 +47,7 @@ cadena = "¡Hola, soy JavasCript!!!!!";
 
 cadenaInvertida = "";
 
-const resultArrayAnonymous = function(){
+const resultAnonymous = function(){
 
     for (let i = cadena.length; i--;){
 
@@ -56,7 +56,7 @@ const resultArrayAnonymous = function(){
     }
 }
 
-resultArrayAnonymous();
+resultAnonymous();
 
 console.log(cadenaInvertida);
 
@@ -68,7 +68,7 @@ cadena = "¡Hola, soy JavasCript!!!!!";
 
 cadenaInvertida = "";
 
-const resultArrayArrow = () =>{
+const resultArrow = () =>{
 
     for (let i= cadena.length; i--;){
 
@@ -78,7 +78,7 @@ const resultArrayArrow = () =>{
 
 }
 
-resultArrayArrow();
+resultArrow();
 
 console.log(cadenaInvertida);
 
@@ -89,7 +89,7 @@ console.log(cadenaInvertida);
 
 cadenaInvertida = "";
 
-function resultArrayReturnValues(str){
+function resultReturnValues(str){
 
     for (let i=str.length; i--;){
 
@@ -100,7 +100,7 @@ function resultArrayReturnValues(str){
     return cadenaInvertida;
 }
 
-resultArrayReturnValues("¡Hola, soy JavasCript!!!!!");
+resultReturnValues("¡Hola, soy JavasCript!!!!!");
 
 console.log(cadenaInvertida);
 
