@@ -21,3 +21,96 @@ function receiveArraySimple(){
 }
 
 receiveArraySimple();
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Función parametros
+
+empty = [];
+
+function receiveArrayParameters(number){
+
+    for (let i=0; i<number.length; i++){
+
+        let fillEmpty = empty.push(number[i]);
+
+        let numberSquare = fillEmpty ** 2;
+
+        console.log(numberSquare);
+
+    }
+}
+
+receiveArrayParameters([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Funcion Anónima
+
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+empty = [];
+
+const resultArrayAnonymous = function(){
+
+    for (let i=0; i<array.length; i++){
+
+        let fillEmpty = empty.push(array[i]);
+
+        let numberSquare = fillEmpty ** 2;
+
+        console.log(numberSquare);
+
+    }
+}
+
+resultArrayAnonymous();
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Funciones Flecha
+
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+empty = [];
+
+const resultArrayArrow = () =>{
+
+    for (let i=0; i<array.length; i++){
+
+        let fillEmpty = empty.push(array[i]);
+
+        let numberSquare = fillEmpty ** 2;
+
+        console.log(numberSquare);
+
+    }
+
+}
+
+resultArrayArrow();
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Retorno de Valores
+
+number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+empty = [];
+
+function receiveArrayParameters(number){
+
+    for (let i=0; i<number.length; i++){
+
+        let fillEmpty = empty.push(number[i]);
+
+        let numberSquare = fillEmpty ** 2;
+
+        console.log(numberSquare);
+
+    }
+}
+
+receiveArrayParameters(number);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
