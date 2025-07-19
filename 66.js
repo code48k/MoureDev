@@ -162,3 +162,5 @@ function resultArrayReturnValues(array1, array2){
 let resultReturnValues = resultArrayReturnValues(miArray1, miArray2);
 
 console.log(resultReturnValues);
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
