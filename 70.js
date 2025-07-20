@@ -1,5 +1,107 @@
 // 70.- Crea una función que calcule el factorial de un número dado. Explora diferentes sintaxis de funciones para resolver el ejercicio.
 
-let factorial = 5*4*3*2*1
+// Función simple
 
-console.log(factorial); 
+function receiveSimple(){
+
+    let resultado = 1;
+
+    let n = 5;
+
+    for (let i=2; i<=n; i++){
+
+        resultado *= i;
+
+    }
+
+    return resultado;
+
+}
+
+console.log(`Número Factorial es 5*4*3*2*1:`, receiveSimple(5));
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Función parametros
+
+function receiveParameters(n){
+
+    let resultado = 1;
+
+    for (let i=2; i<=n; i++){
+
+        resultado *= i;
+    }
+
+    return resultado;
+}
+
+console.log(`Número Factorial es 5*4*3*2*1:`, receiveParameters(5));
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Funcion Anónima
+
+const resultAnonymous = function(){
+
+    let resultado = 1;
+
+    let n = 5;
+
+    for (let i=2; i<=n; i++){
+
+        resultado = resultado * i;
+
+    }
+
+    return resultado;
+
+}
+
+console.log(`Número Factorial es 5*4*3*2*1:`, resultAnonymous(5));
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Funciones Flecha
+
+const resultArrow = () =>{
+
+    let resultado = 1;
+
+    let n = 5;
+
+    for (let i=2; i<=n; i++){
+
+        resultado = resultado * i;
+
+    }
+
+    return resultado;
+
+}
+
+console.log(`Número Factorial es 5*4*3*2*1:`, resultArrow(5));
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Retorno de Valores
+
+function resultReturnValues(){
+
+    let resultado = 1;
+
+    let n = 5;
+
+    for (let i=2; i<=n; i++){
+
+        resultado *= i;
+
+    }
+
+    return resultado;
+
+}
+
+console.log(`Número Factorial es 5*4*3*2*1:`, resultReturnValues(5));
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
