@@ -55,10 +55,9 @@ function receiveArrayParameters(array1, array2) {
 
     }
     
-    console.log(newArray);
+console.log(newArray);
 
 }
-
 
 let resultParameters = receiveArrayParameters(miArray1, miArray2);
 console.log(resultParameters);
