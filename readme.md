@@ -9,7 +9,7 @@ Desarrollo de JavasCript
 ## 🚀 Demo
 
 
-## ⚙️ Tecnologías
+###⚙️ Tecnologías
 
 - HTML5 / CSS3 / JavaScript
 
