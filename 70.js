@@ -2,11 +2,10 @@
 
 // Función simple
 
-function receiveSimple(){
-
     let resultado = 1;
-
     let n = 5;
+
+function receiveSimple(){
 
     for (let i=2; i<=n; i++){
 
@@ -24,9 +23,9 @@ console.log(`Número Factorial es 5*4*3*2*1:`, receiveSimple());
 
 // Función parametros
 
-function receiveParameters(n){
+resultado = 1;
 
-    let resultado = 1;
+function receiveParameters(n){
 
     for (let i=2; i<=n; i++){
 
@@ -42,11 +41,11 @@ console.log(`Número Factorial es 5*4*3*2*1:`, receiveParameters(5));
 
 // Funcion Anónima
 
+resultado = 1;
+
+n = 5;
+
 const resultAnonymous = function(){
-
-    let resultado = 1;
-
-    let n = 5;
 
     for (let i=2; i<=n; i++){
 
@@ -64,11 +63,11 @@ console.log(`Número Factorial es 5*4*3*2*1:`, resultAnonymous());
 
 // Funciones Flecha
 
+resultado = 1;
+
+n = 5;
+
 const resultArrow = () =>{
-
-    let resultado = 1;
-
-    let n = 5;
 
     for (let i=2; i<=n; i++){
 
